@@ -1,0 +1,25 @@
+{
+  "name": "reactwithouttooling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx,css}\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SydAsim/ReactFrontendMasters.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SydAsim/ReactFrontendMasters/issues"
+  },
+  "homepage": "https://github.com/SydAsim/ReactFrontendMasters#readme",
+  "devDependencies": {
+    "prettier": "^3.8.1"
+  }
+}
