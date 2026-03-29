@@ -1,11 +1,10 @@
 
 import {createRoot} from "react-dom/client"
-import Pizza from "./Pizza"
+import Order from "./Order";
 // const Pizza = (props)=>{
 //     return React.createElement("div" , {} , ([
 //         React.createElement("h1",{},props.name),
 //         React.createElement("p",{}, props.description)
-
 //     ])
         
 //     )
@@ -16,7 +15,7 @@ const App = () => {
   return (
     <div>
       <h1 className="logo">Padre Gino's Pizza</h1>
-      <Pizza
+      {/* <Pizza
         name="Pepperoni"
         description="Mozzarella Cheese, Pepperoni"
         image={"/public/pizzas/pepperoni.webp"}
@@ -30,7 +29,10 @@ const App = () => {
         name="The Big Meat Pizza"
         description="Bacon, Pepperoni, Italian Sausage, Chorizo Sausage"
         image={"/public/pizzas/big_meat.webp"}
-      />
+      /> */}
+
+
+      <Order/>
     </div>
   );
 };
