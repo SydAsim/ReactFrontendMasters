@@ -1,9 +1,10 @@
 const Pizza = (props)=>{
     return (
-
+        <div className="pizza">
         <h1>{props.name}</h1>,
-        <h3>{props.description}</h3>
-
+        <p>{props.description}</p>,
+        <img src={props.image} alt={props.name}/>
+</div>
     )
 }
 
