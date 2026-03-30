@@ -1,4 +1,4 @@
-
+import { StrictMode } from "react";
 import {createRoot} from "react-dom/client"
 import Order from "./Order";
 // const Pizza = (props)=>{
@@ -9,7 +9,6 @@ import Order from "./Order";
         
 //     )
 // }
-
 
 const App = () => {
   return (
@@ -39,4 +38,8 @@ const App = () => {
 
 const container = document.getElementById("root");
 const root = createRoot(container);
-root.render(<App />);
+root.render(
+  <StrictMode>
+    <App />
+  </StrictMode>
+);
